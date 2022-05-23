@@ -9,3 +9,7 @@ np_Pin = NeoPixel(Pin(23,Pin.OUT),2) # 2 is number of NeoPixel
 np_Pin[0] = (10,0,0) # set RGB 1 to 10% red 
 np_Pin[1] = (0,0,10) # set RGB 2 to 10% blue
 np_Pin.write()       # write the setting rgb value to NeoPixel
+
+print('rgb1 value:',np_Pin[0]) # see the rgb1 value
+print('rgb2 value:',np_Pin[1]) # see the rgb2 value
+
