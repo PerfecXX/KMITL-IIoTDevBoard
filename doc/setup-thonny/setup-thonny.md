@@ -1,4 +1,4 @@
-###Thonny IDE
+### Thonny IDE
 ---
 Simple and lightweight IDE for Python development.
 It is compatible with a wide range of boards flash tool, including the ESP32, ESP8266, Raspberry Pi, and microbit.
