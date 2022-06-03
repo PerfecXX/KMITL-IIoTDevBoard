@@ -1,4 +1,4 @@
-###MicroPython Firmware
+### MicroPython Firmware
 ---
 MicroPython is not flashed onto the ESP32 or ESP8266 boards by default. The first thing you need to do to start programming your boards with MicroPython is upload the firmware.
 
