@@ -1,4 +1,4 @@
-### ESP32 on KMITL DevBoard with MicroPython
+### ESP32 on KMITL AIoT DevBoard with MicroPython
 ---
 ![ESP32 KMITL Dev Board](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/AIoT%20Board.png?raw=true "ESP32 KMITL Dev Board")
 
@@ -8,12 +8,16 @@ And in addition to this, it is determined to continue building AI and IoT projec
 
 ### Table of Content
 ---
-- Setup your computer
-- Setup your ESP32 board 
-- ESP32 and KMITL AIoT development board pinout  
-- Using Micropython with KMITL AIoT onboard sensor/module
-- Example IoT Project with KMITL AIoT development board 
+- Thonny IDE Setup.
+- ESP32 Firmware Setup.
+- ESP32+KMITL AIoT Development Board Pinout.
+- Getting Start with MicroPython.
+- Example MicroPython Code.
+- Getting Start with Netpie.
+- Example Project with Netpie.
 
-
-
-
+### Reference 
+---
+https://docs.micropython.org/en/latest/esp32/quickref.html
+https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+https://netpie.io/guide
