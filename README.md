@@ -18,6 +18,6 @@ And in addition to this, it is determined to continue building AI and IoT projec
 
 ### Reference 
 ---
-https://docs.micropython.org/en/latest/esp32/quickref.html
-https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
-https://netpie.io/guide
+- https://docs.micropython.org/en/latest/esp32/quickref.html
+- https://randomnerdtutorials.com/esp32-pinout-reference-gpios/
+- https://netpie.io/guide
