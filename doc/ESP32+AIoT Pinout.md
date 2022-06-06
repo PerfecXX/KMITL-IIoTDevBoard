@@ -37,15 +37,17 @@ However, other ESP32 boards of the same size and number of pins can be used as w
 |27   |OK   |OK   |   |
 |32   |OK   |OK   |   |
 |33   |OK   |OK   |   |
-|34   |OK   |   |input only   |
-|35   |OK   |   |input only   |
-|36   |OK   |   |input only   |
-|39   |OK   |   |input only   |
+|34   |OK   |  - |input only   |
+|35   |OK   |  - |input only   |
+|36   |OK   |  - |input only   |
+|39   |OK   | -  |input only   |
 
 ### KMITL AIoT Development Board Pin Reference 
 ---
 
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/aiot-module.png?raw=true)
+
+The following ESP32 GPIO are connected with the KMITL AIoT Development Board.
 
 |   GPIO |   Module/Sensor | Notes|
 | ------------ | ------------ | ------------ |
