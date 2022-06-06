@@ -70,7 +70,20 @@ When you finish the code and want to save it on the ESP32.
 1. Right click the `main.py` in `This computer` window.
 2. Select `upload to` and wait until the upload is complete.
 3. The upload file will show in `MicroPython Device`  window.
+(If you do not rename it to `main.py`, it will not work.)
+4. Press the `EN` button on the board then the ESP32 should be reboot.
 
 ![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/108f84a37b152ec172c88c07c38d63f28a25e0d5/doc/upload-to-upython-decive.png)
 
 ### Upload External Library 
+---
+To use an external or custom library, you need to upload the library file to the MicroPython device before running or deploying your code. 
+
+The process is the same as uploading `main.py` to a MicroPython device.
+
+1. Right click the library file in `This computer` window.
+2. Select `upload to` and wait until the upload is complete.
+3. The upload file will show in `MicroPython Device`  window.
+
+
+
