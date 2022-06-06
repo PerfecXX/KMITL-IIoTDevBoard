@@ -35,7 +35,9 @@ After downloading the CP210x Driver, complete the installation by running the in
 4. Then in the dropdown menu click `Select Interpreter`
 5. In the option window,change the The same interpreter which run Thonny (Default Interpreter) to `MicroPython ESP32`.
 6. Then select your computer port for your ESP32 port.
+
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/thonny-port-selection.png?raw=true)
+
 7. After the port is selected,  click `Install or update firmware` on the right bottom. 
 8. In the port entry, select your ESP32 port.
 9. Then in the firmware entry, browse to your firmware file (.bin).
@@ -44,7 +46,9 @@ After downloading the CP210x Driver, complete the installation by running the in
 11. Close the option window and go back to Thonny IDE. 
 12. The Shell should prompt  `MicroPython v<version> on <last update>` and `ESP32 module with ESP32`.Then the left-buttom menu will show `boot.py` inside the `MicroPython Device` window. 
 (If you do not see the MicroPython Device window, click the `view` menu on the top, then on the dropdown select the `File` menu. The window should appear.)
+
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/thonny-show-shell.png?raw=true)
+
 ### Testing your MicroPython 
 ---
 1. Click the `New` menu on the top (or Ctrl+N) to create a new file, then save it as `main.py` 
@@ -56,6 +60,7 @@ print('Hello World!')
 3. Save the new file by click `save` (Ctrl+S) to `This computer` 
 and `Run` (F5).
 4. In the Shell will display `Hello Wolrd`.
+
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/thonny-test-code.png?raw=true)
 
 ### Deploy your code
@@ -64,6 +69,7 @@ When you finish the code and want to save it on the ESP32.
 1. Right click the `main.py` in `This computer` window.
 2. Select `upload to` and wait until the upload is complete.
 3. The upload file will show in `MicroPython Device`  window.
+
 ![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/108f84a37b152ec172c88c07c38d63f28a25e0d5/doc/upload-to-upython-decive.png)
 
 ### Upload External Library 
