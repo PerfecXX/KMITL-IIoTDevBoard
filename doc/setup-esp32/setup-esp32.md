@@ -11,6 +11,7 @@ MicroPython is not flashed onto the ESP32 or ESP8266 boards by default. The firs
 3. Select the lastest release to download `.bin` files. 
 
 4. The firmware (.bin) should be downloaded. 
+
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/firmware-download-site.png?raw=true)
 
 ### Download and Installing USB Driver. 
