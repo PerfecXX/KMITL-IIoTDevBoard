@@ -1,7 +1,9 @@
 ### What is Netpie 
 ---
 NETPIE is an IoT cloud-based platform-as-a-service that helps connect your IoT devices together seamlessly by pushing the complexity from the hands of application developers or device manufacturers to the cloud.
-![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/aea13b65b52dc46e196bd7f733ed4f85fbd0d19f/doc/NETPIE2020_Bg_banner.bb43c58c.png)
+
+![](https://netpie.io/static/media/NETPIE2020_Bg_banner.bb43c58c.png)
+
 ### Feature
 ---
 1. Capability to connect with any hardware platforms and applications regardless of computer languages involved.
@@ -26,6 +28,7 @@ https://portal.netpie.io/usage
 
 ### Netpie 2015 or Netpie 2020?
 ---
+
 | Comparison  | Netpie 2015  |Netpie 2020   |
 | ------------ | ------------ | ------------ |
 |  Design philosophy |  Device-centric|  Platform-centric |
@@ -38,6 +41,23 @@ https://portal.netpie.io/usage
 |Device identity and group|Use APPID. Device identity and group must be programmed into firmware.|No more APPID. Device identity and group can be adjusted anytime even after product is sold/installed.|
 |Rate limit|Everyone is subject to the same rate limit, for example 4 data-points per minute, and 10 real-time messages per second.|Rate limit is measured per month, allowing for dynamic burst usage, for example 1 million data-points per month, and 9 million real-time messages per month.|
 |Trigger & Action|Set triggers for action by programming into IoT devices|Can set triggers and event hooks in cloud platform|
+
+### Hardware Support 
+---
+If you use Netpie 2020, you can use any hardware that supports the MQTT protocol.
+For more detail visit the Netpie hardware support.
+https://netpie.io/hardwaresupport
+
+|   Name|Board List   |
+| ------------ | ------------ |
+|  Arduino |https://netpie.io/hardwaresupport#Arduino   |
+| ESP8266  |https://netpie.io/hardwaresupport#ESP8266   |
+|ESP32|https://netpie.io/hardwaresupport#ESP32|
+|Raspberry Pi|https://netpie.io/hardwaresupport#RaspberryPI|
+
+
+
+
 
 
 
