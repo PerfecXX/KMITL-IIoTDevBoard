@@ -9,9 +9,9 @@ And in addition to this, it is determined to continue building AI and IoT projec
 ### Table of Content
 ---
 - Getting Start with MicroPython.
- -  [Thonny IDE Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/setup-thonny/setup-thonny.md "Thonny IDE Setup.")
- -  [ ESP32 Firmware Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/setup-esp32/setup-esp32.md " ESP32 Firmware Setup.")
- -  [ESP32+KMITL AIoT Development Board Pinout.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/ESP32%2BAIoT%20Pinout.md "ESP32+KMITL AIoT Development Board Pinout.")
+  -  [Thonny IDE Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/setup-thonny/setup-thonny.md "Thonny IDE Setup.")
+  -  [ ESP32 Firmware Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/setup-esp32/setup-esp32.md " ESP32 Firmware Setup.")
+  -  [ESP32+KMITL AIoT Development Board Pinout.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/ESP32%2BAIoT%20Pinout.md "ESP32+KMITL AIoT Development Board Pinout.")
  - [Example Code](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
 
 - Getting Start with Netpie.
