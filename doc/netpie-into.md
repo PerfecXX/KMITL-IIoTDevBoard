@@ -2,7 +2,7 @@
 ---
 NETPIE is an IoT cloud-based platform-as-a-service that helps connect your IoT devices together seamlessly by pushing the complexity from the hands of application developers or device manufacturers to the cloud.
 
-![](https://netpie.io/static/media/NETPIE2020_Bg_banner.bb43c58c.png)
+![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/NETPIE2020_Bg_banner.bb43c58c.png?raw=true)
 
 ### Feature
 ---
