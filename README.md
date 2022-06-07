@@ -15,7 +15,7 @@ And in addition to this, it is determined to continue building AI and IoT projec
   - [Example Code](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
 
 - Getting Start with Netpie.
-  - What is Netpie.
+  - [What is Netpie.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-into.md)
   - Netpie Registration.
   - Example Project.
 
