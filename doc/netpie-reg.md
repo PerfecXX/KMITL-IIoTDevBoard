@@ -23,3 +23,5 @@ The first-time login we use OTP as the account password but it can be change by 
 2. Then at the password section click `change`.
 3. Fill old password (OTP) and comfirm the new password.
 4. Your account password has now changed.
+
+![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-profile.png?raw=true)
