@@ -53,6 +53,7 @@ The ESP32 is capable of connecting to the internet via a wireless network.
 4.Download `simple.py` (Micorpython MQTT library) [Here](https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py "Here").
 
 5.Then, upload `simple.py` to your board and run the code.
+
 6.If the connection is successful, the Netpie device status will change to green. 
 
 ![Netpie Device ](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/28e8c6fb486f822cee39fac4060e1d0bfd18ade5/doc/netpie-connection-test-ok.png "Netpie Device ")
