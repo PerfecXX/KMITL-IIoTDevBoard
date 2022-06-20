@@ -50,7 +50,7 @@ The ESP32 is capable of connecting to the internet via a wireless network.
     client.connect()
     print('Broker Connected!')
 ```
-4.Download `simple.py` (Micorpython MQTT library) [Here](https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py "Here").
+4.Download `simple.py` (MicorPython MQTT library) [Here](https://github.com/micropython/micropython-lib/blob/master/micropython/umqtt.simple/umqtt/simple.py "Here").
 
 5.Then, upload `simple.py` to your board and run the code.
 
