@@ -48,9 +48,12 @@ print('Broker Connected!')
 
 # --- Main Program---
 while True:
+    # Reading Sensor
     dht.measure()
+    # Set temperature/humidity
     temp = dht.temperature()
     hum = dht.humidity()
+    # Publish to Netpie Shadow 
     client.publish('@shadow/data/update',dumps({
         'data':{
             'Temperature':temp,
