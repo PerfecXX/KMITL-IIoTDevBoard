@@ -10,12 +10,24 @@ Netpie Shadow is where the published data is stored in JSON format and can be us
 - Schema (Data Validation & Data Transformation)
 - Trigger (Event Hook)
 - Feed (Timeseries Data)
-- Free Board (Data Visualization)
+- Free Board (Data Visualization) 
 
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-shadow-empty.png?raw=true)
 
 Before you publishing your data to Shadow, make sure your ESP32 are able and ready to connect with Netpie.
 If you are not sure, please see [Connect Your Device to Netpie with MicroPython](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-upy-connection.md "Connect Your Device to Netpie with MicroPython").
+
+To publish the data to Netpie Shadow, you need to publish to the `@shadow/data/update` topic and the format of the publishing data is JSON format.
+
+The structure of the payload for Netpie Shadow is 
+```python
+{'data': {
+		'field name 1': Value 1,
+		'field name 2': Value 2,
+		'field name 3': Value 3,...,
+		'field name n': Value n
+	}}
+```
 
 Follow this instruction to publish the data from ESP32 to Shadow.
 
