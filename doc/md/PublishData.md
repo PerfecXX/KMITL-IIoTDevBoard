@@ -87,6 +87,7 @@ while True:
             }}))
 ```
 4.Run your code.
+
 5.Return to Netpie and look at Device Shadow. It will show the published data (if it is not shown, try to refresh the web page).
 
 ![Published data](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-shadow-data.png?raw=true "Published data")
