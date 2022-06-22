@@ -106,5 +106,3 @@ while True:
 
 That is, now you can store the published data in the Netpie Shadow.
 
-### Message API Topic
----
