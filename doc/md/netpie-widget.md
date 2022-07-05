@@ -43,7 +43,7 @@ Datasource is the source of the data from the Netpie device that you want to vis
 
 ![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/f95d1d3b364a29a6a24a50897e34ed4adbd7aa29/doc/netpie-widget-text-success-demo.png)
 
-###Add more widgets
+### Add more widgets
 ---
 You can add more widgets by clicking `+` in the widget pane or adding the new widget pane and repeating the previous step. 
 
