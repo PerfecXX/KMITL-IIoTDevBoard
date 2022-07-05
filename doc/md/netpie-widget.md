@@ -34,5 +34,24 @@ Datasource is the source of the data from the Netpie device that you want to vis
 
 1. Click ADD PANE in the right-side menu.
 2. Click the wrench icon in the empty pane to configure the pane name and number of columns in the pane.
-3. Inside the empty pane, click + and select a new widget.
-4. 
+3. Inside the empty pane, click + and select a widget type (in this example, let's start with the Text widget).
+4. Fill in the widget title in the titile field.
+5. In the value field, select your data sources, then navigate to the value you want to visualize in the widget.
+6. Click `Save` (Other options are optional).
+
+![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-widget-text-create-demo.png?raw=true)
+
+![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/f95d1d3b364a29a6a24a50897e34ed4adbd7aa29/doc/netpie-widget-text-success-demo.png)
+
+###Add more widgets
+---
+You can add more widgets by clicking `+` in the widget pane or adding the new widget pane and repeating the previous step. 
+
+![](https://raw.githubusercontent.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/bfd6fece41accff9d7c413e9de2e67b23d9a7e06/doc/netpie-widget-move.png)
+
+
+### Saving Freeboard
+---
+After you create or modify your dashboard, do not forget to click the Save menu at the left. The fact that the Netpie does not auto save your session means you need to do a manual save every time you change.  
+
+![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/netpie-widget-save.png?raw=true)
