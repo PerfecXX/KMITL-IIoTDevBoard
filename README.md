@@ -21,7 +21,7 @@ And in addition to this, it is determined to continue building AI and IoT projec
   - [Connect Your Device to Netpie.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/netpie-upy-connection.md)
   - [Publish data to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/PublishShadow.md)
   - [Subscribe to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-sub-shadow.md)
-  - Display Shadow Data with a Widget. 
+  - [Display Shadow Data with a Widget.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-widget.md) 
   - Publish Data to Message API Topic.
   - Example Widget Usage.
 
