@@ -22,7 +22,7 @@ And in addition to this, it is determined to continue building AI and IoT projec
   - [Publish data to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/PublishShadow.md)
   - [Subscribe to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-sub-shadow.md)
   - [Display Shadow Data with a Widget.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-widget.md) 
-  - Publish Data to Message API Topic.
+  - [Publish Data to Message API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-msg.md)
   - Example Widget Usage.
 
 ### Reference 
