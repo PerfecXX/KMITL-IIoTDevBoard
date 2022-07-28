@@ -1,0 +1,245 @@
+{
+ "version": "application/octet-stream",
+ "allow_edit": true,
+ "plugins": [],
+ "panes": [
+  {
+   "title": "DHT11",
+   "width": 1,
+   "row": {
+    "3": 1
+   },
+   "col": {
+    "3": 1
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "text_widget",
+     "settings": {
+      "title": "Temperature",
+      "size": "regular",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Temperature\"]",
+      "sparkline": true,
+      "animate": true,
+      "units": "°C"
+     }
+    },
+    {
+     "type": "text_widget",
+     "settings": {
+      "title": "Humidity",
+      "size": "regular",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Humidity\"]",
+      "sparkline": true,
+      "animate": true,
+      "units": "%RH"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Relay",
+   "width": 1,
+   "row": {
+    "3": 1
+   },
+   "col": {
+    "3": 3
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Relay1",
+      "color": "#00ff00",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Relay\"][\"Relay1\"] == 1",
+      "on_text": "ON",
+      "off_text": "OFF"
+     }
+    },
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Relay2",
+      "color": "#00FF00",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Relay\"][\"Relay2\"] == 1",
+      "on_text": "ON",
+      "off_text": "OFF"
+     }
+    },
+    {
+     "type": "Toggle",
+     "settings": {
+      "caption": "Relay1",
+      "ontext": "ON",
+      "offtext": "OFF",
+      "onaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"relay1-on\")",
+      "offaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"relay1-off\")"
+     }
+    },
+    {
+     "type": "Toggle",
+     "settings": {
+      "caption": "Relay2",
+      "ontext": "ON",
+      "offtext": "OFF",
+      "onaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"relay2-on\")",
+      "offaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"relay2-off\")"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Analog Value",
+   "width": 1,
+   "row": {
+    "3": 1
+   },
+   "col": {
+    "3": 2
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "text_widget",
+     "settings": {
+      "title": "LDR",
+      "size": "regular",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"LDR\"]",
+      "sparkline": true,
+      "animate": true
+     }
+    },
+    {
+     "type": "text_widget",
+     "settings": {
+      "title": "Potentiometer",
+      "size": "regular",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Potentiometer\"]",
+      "sparkline": true,
+      "animate": true
+     }
+    }
+   ]
+  },
+  {
+   "title": "Button State",
+   "width": 1,
+   "row": {
+    "3": 11
+   },
+   "col": {
+    "3": 1
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Button1",
+      "color": "#0000FF",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Button\"][\"Button1\"] == 0",
+      "on_text": "Pressd",
+      "off_text": "Not Pressed"
+     }
+    },
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Button2",
+      "color": "#0000FF",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Button\"][\"Button2\"] == 0",
+      "on_text": "Pressed",
+      "off_text": "Not Pressed"
+     }
+    },
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Button3",
+      "color": "#0000FF",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Button\"][\"Button3\"] ==0",
+      "on_text": "Press",
+      "off_text": "Not Pressed"
+     }
+    },
+    {
+     "type": "indicator",
+     "settings": {
+      "title": "Button4",
+      "color": "#0000FF",
+      "value": "datasources[\"ESP32-AIoT-Board\"][\"shadow\"][\"Button\"][\"Button4\"] ==0",
+      "on_text": "Pressed",
+      "off_text": "Not Pressed"
+     }
+    }
+   ]
+  },
+  {
+   "title": "Buzzer",
+   "width": 1,
+   "row": {
+    "3": 11
+   },
+   "col": {
+    "3": 2
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "Button",
+     "settings": {
+      "caption": "Beep!",
+      "text": "Beep!",
+      "color": "yellow",
+      "onClick": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"buzzer-on\")"
+     }
+    }
+   ]
+  },
+  {
+   "title": "LED",
+   "width": 1,
+   "row": {
+    "3": 11
+   },
+   "col": {
+    "3": 3
+   },
+   "col_width": 1,
+   "widgets": [
+    {
+     "type": "Toggle",
+     "settings": {
+      "caption": "LED",
+      "ontext": "ON",
+      "offtext": "OFF",
+      "onaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"led1-on\")",
+      "offaction": "netpie[\"ESP32-AIoT-Board\"].publish(\"@msg/data\",\"led1-off\")"
+     }
+    }
+   ]
+  }
+ ],
+ "datasources": [
+  {
+   "name": "ESP32-AIoT-Board",
+   "type": "netpiex_datasource",
+   "settings": {
+    "name": "ESP32-AIoT-Board",
+    "deviceid": "973098f8-8c54-4862-bc8a-f367c6643001",
+    "devicetoken": "VQc3m6uwrN8Kyv8GwHvwJd4nJwzj8AsC",
+    "topics": "@msg/data",
+    "feed": 0,
+    "feed_since_value": "6",
+    "feed_since_unit": "hours",
+    "feed_downsampling": "1",
+    "feed_downsampling_unit": "minutes"
+   }
+  }
+ ],
+ "columns": 3,
+ "theme": "default"
+}
