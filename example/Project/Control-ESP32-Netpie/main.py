@@ -60,8 +60,8 @@ freq = 3000
 duty = 1000
 
 # Network Credential
-ssid = 'helakallio 2.4G'     # change
-password = 'sanni180323' # change
+ssid = ''     # change
+password = '' # change
 
 try:
     # Network Interface 
@@ -85,9 +85,9 @@ try:
 
     # Netpie MQTT Credential
     # (Get all credential from Netpie)
-    client_ID = '973098f8-8c54-4862-bc8a-f367c6643001'               # <== change
-    token = 'VQc3m6uwrN8Kyv8GwHvwJd4nJwzj8AsC'                   # <== change
-    secret = '~DcMAOpDKba1#ZuqSmsdcEMwI1pbYzY#'                  # <== change
+    client_ID = ''               # <== change
+    token = ''                   # <== change
+    secret = ''                  # <== change
     broker = 'mqtt.netpie.io'
     shadow = '@shadow/data/update'
     msg = '@msg/data'
