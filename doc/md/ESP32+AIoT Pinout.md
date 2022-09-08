@@ -47,29 +47,35 @@ However, other ESP32 boards of the same size and number of pins can be used as w
 
 ![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/aiot-module.png?raw=true)
 
+![](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/KMITL-AIoT-Dev-Board-Layout.jpeg)
+
 The following ESP32 GPIO are connected with the KMITL AIoT Development Board.
 
-|   GPIO |   Module/Sensor | Notes|
-| ------------ | ------------ | ------------ |
-|0                  |Button                              |Button 3|
-|2                  |Button                              |Button 2|
-|4                  |Button                              |Button 4|
-|5                  |MAX485                           |MAX DIR|
-|13                |DHT11                              |DHT11 Data|
-|14                |Relay                                |Relay 1|
-|15                |Button                              |Button 1|
-|16                |MAX485                           |MAX Out|
-|17                |MAX485                           |MAX In|
-|21                |SSD1306                          |SSD1306 SDA|
-|22                |SSD1306                          |SSD1306 SCL|
-|23                |NeoPixel                          |NeoPixel Signal|
-|27                |Relay                                |Relay 2|
-|26                |IR Sensor                         |IR Sensor|
-|32                |Buzzer                             |Buzzer PWM|
-|34                |PC817 Opto Isolator       |OPTO IN1 signal |
-|35                |PC817 Opto Isolator       |OPTO IN2 signal |
-|36                |LDR                                 |LDR signal |
-|39                |W103 Potentiometer      |POT signal |
+|Sensor/Module  |GPIO   |
+| ------------ | ------------ |
+|Button 1|15|
+|Button 2|2|
+|Button 3|0|
+|Button 4|4|
+|Relay 1|14|
+|Relay 2|27|
+|DHT11 Data|13|
+|SSD1306 OLED SDA|21|
+|SSD1306 OLED SCL|22|
+|NeoPixel Signal|23|
+|Buzzer PWM|32|
+|LDR Signal|36|
+|W103 Potentiometer Signal|39|
+|IR Sensor|26|
+|MAX485 Out|16|
+|MAX485 In|17|
+|MAX485 Dir|5|
+|PC817 Opto Isolator 1 Signal|34|
+|PC817 Opto Isolator 2 Signal|35|
+
+
+
+
 
 
 
