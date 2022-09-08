@@ -1,6 +1,6 @@
 ### ESP32 on KMITL AIoT DevBoard with MicroPython
 ---
-![ESP32 KMITL Dev Board](doc/md/ESP32+AIoT Pinout.md"ESP32 KMITL Dev Board")
+[![ESP32+KMITL AIoT Board](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/AIoT%20Board.png "ESP32+KMITL AIoT Board")](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/ESP32%2BAIoT%20Pinout.md "ESP32+KMITL AIoT Board")
 
 This is the MicroPython project, which aims to put an implementation of MicroPython on the ESP32+KMITL AIoT Development board.
 
