@@ -21,6 +21,10 @@ class AIOT():
         self.__buzzDuty = 0
         self.__temperature = 0
         self.__humidity = 0
+        self.__btn1State = 0
+        self.__btn2State = 0
+        self.__btn3State = 0
+        self.__btn4State = 0
         self.__oledScreenWidth = 128
         self.__oledScreenHeight = 64
         
@@ -33,6 +37,7 @@ class AIOT():
         self.__buzzerPin = Pin(32,Pin.OUT)
         self.__neopixelPin = NeoPixel(Pin(23,Pin.OUT),2)
         self.__dhtPin = DHT11(Pin(13))
+        
         self.__btn1Pin = Pin(15,Pin.IN,Pin.PULL_UP)
         self.__btn2Pin = Pin(2,Pin.IN,Pin.PULL_UP)
         self.__btn3Pin = Pin(0,Pin.IN,Pin.PULL_UP)
@@ -43,30 +48,70 @@ class AIOT():
         
     def rgb_setColor(self,index,color):
         """
-        Set an RGB color to a specific position. 
-        -------------------------------------------
+        Set an RGB color to a specific position
+        -----
         Parameter:
-        index(int) -> 0 or 1 => Position of RGB LED
-        color(tuple) -> (r,g,b) => color of RGB LED
+        (int)index -> 0 or 1 => Position of RGB LED
+        (tuple)color -> (r,g,b) => color of RGB LED
         ---
-        r(int) -> 0 to 255 => intensity of the red color
-        g(int) -> 0 to 255 => intensity of the green color
-        b(int) -> 0 to 255 => intensity of the blue color
+        (int)r -> 0 to 255 => intensity of the red color
+        (int)g -> 0 to 255 => intensity of the green color
+        (int)b -> 0 to 255 => intensity of the blue color
         """
         self.__neopixelPin[index] = (color[0],color[1],color[2])
+        
     def rgb_show(self):
+        """
+        Write data and turn on all RGB LED
+        """
         self.__neopixelPin.write()
+        
     def rgb_off(self,index):
+        """
+        Set "off" to a specific RGB LED position. 
+        -----
+        Parameter
+        (int)index-> 0 or 1 => Position of RGB LED   
+        (str)index-> 'all' => All of RGB LED
+        """
         if index == 0:
             self.__neopixelPin[0] = (0,0,0)
         elif index ==1:
-            self._neopixelPin[1] = (0,0,0)
+            self.__neopixelPin[1] = (0,0,0)
         elif index == 'all':
             self.__neopixelPin[0] = (0,0,0)
             self.__neopixelPin[1] = (0,0,0)
         self.rgb_show()
+        
+    def button_isPressed(self,index):
+        """
+        Determines whether the specified button is pressed.
+        -----
+        Parameter
+        (int)index -> 1,2,3 or 4 => Name of the button
+        ---
+        Return
+        1-> if the specify button is pressed
+        0-> if the specify button is not pressed
+        """
+        self.__btn1State = self.__btn1Pin.value()
+        self.__btn2State = self.__btn2Pin.value()
+        self.__btn3State = self.__btn3Pin.value()
+        self.__btn4State = self.__btn4Pin.value()
+        if index ==1:
+            return self.__btn1State
+        elif index ==2:
+            return self.__btn2State
+        elif index ==3:
+            return self.__btn3State
+        elif index ==4:
+            return self.__btn4State
+        
+        
     
     def get_dht(self):
+        """
+        """
         self.__dhtPin.measure()
         self.temperature = self.__dhtPin.temperature()
         self.humidity = self.__dhtPin.humidity()
@@ -82,5 +127,7 @@ board.rgb_setColor(1,(0,255,0))
 board.rgb_show()
 sleep(1)
 board.rgb_off('all')
+if board.button_isPressed(1):
+    print('bnt1 press')
         
 
