@@ -11,7 +11,7 @@ And in addition to this, it is determined to continue building AI and IoT projec
 ---
 - Getting Start with MicroPython.
   -  [Thonny IDE Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-thonny.md)
-  -  [ ESP32 Firmware Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/setup-esp32.md)
+  -  [ ESP32 Firmware Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-esp32.md)
   -  [ESP32+KMITL AIoT Development Board Pinout.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/ESP32%2BAIoT%20Pinout.md)
   - [Example Code](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
 
