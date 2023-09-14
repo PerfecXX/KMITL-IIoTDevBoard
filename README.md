@@ -13,18 +13,23 @@ And in addition to this, it is determined to continue building AI and IoT projec
   -  [Thonny IDE Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-thonny.md)
   -  [ ESP32 Firmware Setup.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-esp32.md)
   -  [ESP32+KMITL AIoT Development Board Pinout.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/ESP32%2BAIoT%20Pinout.md)
-  - [Example Code](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
+  - [Example Code (Internal Module)](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
+    - [NeoPixel](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/NeoPixel)
+    - [Button](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/button)
+    - [Buzzer](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/Buzzer)
+    - [DHT11 Temperature Sensor](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/DHT11)
+    - [LDR](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/LDR)
+    - [Potentiometer](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/Potentiometer)
+    - [SSD1306 OLED](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/SSD1306_OLED)
+  - [Example Code (External Module)](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/External%20Module)
+    - [HCSR-04 Ultrasonic Sensor](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/External%20Module/HCSR-04%20Ultrasonic)
+    - [Soil Sensor](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/External%20Module/Soil%20Moisture%20Sensor)
 
-- Getting Start with Netpie.
-  - [What is Netpie.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/netpie-into.md)
-  - [Netpie Registration.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/netpie-reg.md)
-  - [Netpie Project Creation.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/netpie-project-create.md)
-  - [Connect Your Device to Netpie.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/d44ecd4cfcddd65b381095dcb8f6483bb9fbd376/doc/md/netpie-upy-connection.md)
-  - [Publish data to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/PublishShadow.md)
-  - [Subscribe to the Shadow API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-sub-shadow.md)
-  - [Display Shadow Data with a Widget.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-widget.md) 
-  - [Publish Data to Message API Topic.](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/main/doc/md/netpie-msg.md)
-  - Example Widget Usage.
+- Getting Start with IoT Application/Platform.
+  - NETPIE2020
+  - Linenotify
+  - GoogleSheet
+- Example Project
 
 ### Reference 
 ---
