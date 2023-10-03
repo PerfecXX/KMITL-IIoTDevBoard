@@ -6,16 +6,16 @@ ssid = 'replace_with_your_ssid'
 password = 'replace_with_your_password'
 
 # Network Interface 
-sta_if = WLAN(STA_IF)
+wlan = WLAN(STA_IF)
 # Activate the station mode
-sta_if.active(True)
+wlan.active(True)
 # Check if the devices are already connected or not.
 # If it is not connected, then start the connection.
-if not sta_if.isconnected():
+if not wlan.isconnected():
    print("Connecting to wifi: ", ssid)
-   sta_if.connect(ssid, password)
+   wlan.connect(ssid, password)
    # Wait until your devices are connected.
-   while not sta_if.isconnected():
+   while not wlan.isconnected():
        pass
 print("Connection successful")
 
