@@ -26,9 +26,10 @@ And in addition to this, it is determined to continue building AI and IoT projec
     - [Soil Sensor](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/tree/main/example/External%20Module/Soil%20Moisture%20Sensor)
 
 - Getting Start with IoT Application/Platform.
-  - NETPIE2020
-  - Linenotify
-  - GoogleSheet
+  - [NETPIE2020](https://github.com/PerfecXX/MicroPython-NETPIE)
+  - [Linenotify](https://github.com/PerfecXX/Micropython-Linenotify)
+  - [GoogleSheet](https://github.com/PerfecXX/MicroPython-GoogleSheet)
+  - [Arduino IoT Cloud](https://forum.arduino.cc/t/how-to-connect-the-esp32-micropython-to-arduino-iot-cloud/1234953?u=perfecxx)
 - Example Project
 
 ### Reference 
