@@ -1,7 +1,6 @@
 from neopixel import NeoPixel
 from machine import Pin
 
-
 np_Pin = NeoPixel(Pin(23,Pin.OUT),2) # 2 is number of NeoPixel
 
 while True:
