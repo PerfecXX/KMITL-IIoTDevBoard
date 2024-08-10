@@ -4,8 +4,8 @@ from simple import MQTTClient
 from time import sleep
 
 # Network Credential
-ssid = 'iMakeEDU'
-password = 'imake1234'
+ssid = ''
+password = ''
 
 # Network Interface 
 wlan = WLAN(STA_IF)
