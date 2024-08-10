@@ -17,7 +17,7 @@ The KMITL IIoT Sensor Shield is an advanced expansion board designed to simplify
 # Getting Started with MicroPython 
 -  [Thonny IDE Setup](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-thonny.md)
 -  [ESP32 Firmware Setup](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard-V1/blob/9f2c6fd7d80213c013d1d448a461d4a4ce00fc06/doc/md/setup-esp32.md)
-- [Example Code](https://github.com/PerfecXX/MicroPython-ESP32-AIoT-DevBoard/tree/main/example "Example Code")
+- [Example Code](https://github.com/PerfecXX/KMITL-IIoTDevBoard/tree/main/example/MicroPython)
   
 - Getting Start with IoT Application/Platform.
   - [NETPIE2020](https://github.com/PerfecXX/MicroPython-NETPIE)
